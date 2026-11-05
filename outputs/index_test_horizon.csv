@@ -1,0 +1,10 @@
+forecast,mean_index,shift_sgd,final_month_rise
+Random walk,1.0,-6.6,0.0
+"Damped, 12 months, phi = 0.4",1.0011,-3.5,0.12
+"Damped, 12 months, phi = 0.6 (shipped)",1.0024,0.0,0.27
+"Damped, 12 months, phi = 0.75",1.0043,5.2,0.53
+"Damped, 12 months, phi = 0.85",1.0068,11.8,0.94
+"Damped, 12 months, phi = 0.95",1.0113,24.0,1.91
+"Damped, 18 months, phi = 0.85",1.0063,10.6,0.88
+"Linear, 12 months",1.015,34.2,2.87
+"Linear, 18 months",1.0141,31.7,2.69

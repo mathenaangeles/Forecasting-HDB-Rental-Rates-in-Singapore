@@ -1,0 +1,5 @@
+protocol,cut,n,notebook,notebook_bias,ours_lgbm,ours_blend,ours_bias,notebook_params,secs
+rolling16,27,48301,572.7707956685822,-120.83891654796165,555.9765638594247,554.9208730423184,-37.32609045380456,"{'min_samples_leaf': 20, 'max_leaf_nodes': 15, 'max_iter': 300, 'learning_rate': 0.03, 'l2_regularization': 0.1}",435
+rolling16,31,47036,521.6663033172402,-8.711456032943497,519.5101316695961,517.983829730637,48.81010391982552,"{'min_samples_leaf': 20, 'max_leaf_nodes': 15, 'max_iter': 300, 'learning_rate': 0.1, 'l2_regularization': 0.1}",360
+rolling16,35,47171,486.6297636714033,-16.436249293677708,484.11692227683676,482.7703088194344,-27.671083959934354,"{'min_samples_leaf': 20, 'max_leaf_nodes': 15, 'max_iter': 300, 'learning_rate': 0.1, 'l2_regularization': 0.1}",293
+holdout12,39,35158,467.7560410415676,-28.819861317969355,467.058416106571,466.53776157463545,-42.24820163533789,"{'min_samples_leaf': 20, 'max_leaf_nodes': 15, 'max_iter': 300, 'learning_rate': 0.03, 'l2_regularization': 0.1}",388

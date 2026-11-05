@@ -1,0 +1,54 @@
+statistic,value
+training rows,"150,000"
+test rows,"50,000"
+training months,2021-01 to 2025-03
+test months,2025-03 to 2026-07
+test rows after the last labelled month,99.240%
+"FURNISHED: distinct values over all 200,000 rows",1 ('yes')
+"FEE: distinct values over all 200,000 rows",1 (np.float64(0.0))
+FLAT_TYPE labels in training as written,11
+FLAT_TYPE labels after normalising the separator,6
+rarest flat type,1-room (42 rows)
+rent range,"S$300 to S$7,600"
+mean rent,"S$2,719.04"
+median rent,"S$2,700"
+standard deviation,S$749.73
+skew of rent,+0.39
+skew of log rent,-0.42
+rents that are exact multiples of S$50,98.719%
+mean rent in the first labelled month,"S$2,049"
+mean rent in the last labelled month,"S$3,163"
+rise over the labelled period,54.4%
+  mean rent in 2021,"S$2,121"
+  mean rent in 2022,"S$2,524"
+  mean rent in 2023,"S$3,036"
+  mean rent in 2024,"S$3,110"
+  mean rent in 2025,"S$3,142"
+"median rent, 1-room","S$1,450"
+"median rent, 5-room","S$3,000"
+variance of rent explained by floor area alone,10.8%
+variance explained by approval month,32.1%
+variance explained by town and flat type,21.9%
+variance explained by both together,57.6%
+Tukey fence,"S$450 to S$4,850"
+rents outside the fence,752 (0.50%)
+flagged rents that have a twin,31.8%
+median gap from the twin-group mean,S$333
+"training rows sharing block, flat type and month",26.803%
+groups of at least two such rows,"18,230"
+within-group RMSE,S$343.05
+noise level corrected for fitted group means,S$464.02
+  as a share of mean rent,17%
+  within-group SD in 2021,S$279
+  within-group SD in 2022,S$471
+  within-group SD in 2023,S$588
+  within-group SD in 2024,S$479
+  within-group SD in 2025,S$443
+most dispersed group,"90a telok blangah street 31, 4-room, 2023-09"
+  its rents,"S$5,300, S$1,800"
+rows matching the block table as written,79.5%
+rows matching after lower-casing the street,100.0%
+rows written in title case,20.5%
+"distinct town, block and street as written","17,413"
+"distinct town, block and street once lower-cased","9,406"
+blocks appearing under both spellings,"8,007"

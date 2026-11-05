@@ -1,0 +1,8 @@
+variant,rmse,note,delta
+default,519.87,"Administrative location columns, all 25 numeric attributes",0.0
+geo_k8,519.46,K-means location clusters (k=8) replacing the admin columns,-0.41
+geo_k25,519.47,K-means location clusters (k=25) replacing the admin columns,-0.4
+geo_k60,519.24,K-means location clusters (k=60) replacing the admin columns,-0.63
+pca_8,522.77,First 8 principal components replacing the numeric block,2.9
+pca_16,520.33,First 16 principal components replacing the numeric block,0.46
+pca_24,519.86,First 24 principal components replacing the numeric block,-0.01

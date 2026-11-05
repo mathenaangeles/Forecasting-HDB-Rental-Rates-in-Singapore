@@ -1,0 +1,8 @@
+members,weights,roll16,hold12
+"nb (shipped, w=0.30)",nb=0.30,515.64,462.58
+nb,nb=0.25 ours=0.75,515.64,462.76
+nbp,nbp=0.30 ours=0.70,515.47,462.88
+nb+ridge,nb=0.25 ridge=0.10 ours=0.65,515.36,463.02
+nbp+ridge,nbp=0.25 ridge=0.10 ours=0.65,515.24,463.27
+nb+nbp,nb=0.05 nbp=0.25 ours=0.70,515.46,462.81
+nb+nbp+ridge,nb=0.05 nbp=0.20 ridge=0.10 ours=0.65,515.24,463.2

@@ -1,0 +1,29 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# pipeline artefacts (rebuild with src/data.py and the src/figs_*.py scripts)
+outputs/*.parquet
+outputs/*.pkl
+figures/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HDB full rental register. Contains the test-period labels, deliberately
+# never joined (see README). Kept locally for provenance, out of the tree.
+data/RentingOutofFlatsfromJan2021.csv

@@ -1,0 +1,3 @@
+split,n,rmse,rmse_tilted,bias,bias_tilted,gain
+rolling (fitted here),142508,519.937,519.609,-2.582,-2.751,0.328
+holdout 39,35158,465.538,466.328,-40.139,-49.922,-0.79

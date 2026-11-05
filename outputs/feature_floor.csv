@@ -1,0 +1,3 @@
+grouped_on,n_columns,twin_share,within_rmse
+raw competition columns,8,0.268,464.016
+every engineered feature,78,0.268,464.016

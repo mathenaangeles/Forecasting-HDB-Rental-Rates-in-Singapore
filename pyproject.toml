@@ -1,0 +1,20 @@
+[project]
+name = "hdb-rental-prediction"
+version = "1.0.0"
+description = "CS5228 HDB rental rate prediction: detrended GBDT ensemble"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==2.5.3",
+    "pandas==3.0.5",
+    "pyarrow==25.0.1",
+    "scikit-learn==1.9.0",
+    "lightgbm==4.7.0",
+    "catboost==1.2.10",
+    "xgboost==3.4.1",
+]
+
+[dependency-groups]
+figures = ["matplotlib==3.11.1"]
+
+[tool.uv]
+package = false
