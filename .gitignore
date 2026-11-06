@@ -21,6 +21,7 @@ figures/
 logs/
 
 # OS
+__MACOSX/
 .DS_Store
 Thumbs.db
 

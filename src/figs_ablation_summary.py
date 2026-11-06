@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt, numpy as np, pandas as pd
 # The figure is drawn at the width it occupies in the report, which is the full
 # two-column text block of the IEEE template. Because the drawing size and the
 # printed size agree, the font sizes set here are the sizes that reach the page.
-W, H = 7.16, 1.82
+W, H = 7.16, 1.96
 
 plt.rcParams.update({"font.size": 7, "axes.titlesize": 8, "axes.titleweight": "bold",
                      "axes.titlelocation": "left", "axes.labelsize": 7.5,
@@ -26,8 +26,8 @@ J = pd.read_csv("outputs/ablation_blend_weights.csv").set_index("name")
 # panels carry long category names and the automatic layout spills them over
 # the edge of the canvas.
 fig = plt.figure(figsize=(W, H))
-ax0 = fig.add_axes([0.196, 0.238, 0.254, 0.672])
-ax1 = fig.add_axes([0.670, 0.238, 0.315, 0.672])
+ax0 = fig.add_axes([0.196, 0.280, 0.254, 0.620])
+ax1 = fig.add_axes([0.670, 0.280, 0.315, 0.620])
 
 # Left panel: how the score improved, batch by batch. Each bar is the best
 # setting of its batch on the three rolling folds. The stages are separate
@@ -87,8 +87,8 @@ ax1.grid(axis="x", alpha=.3)
 
 # The two notes sit below their own panels, anchored to the figure rather than
 # to the axes so that they cannot collide with the axis labels.
-fig.text(0.196, 0.042, f"Axis starts at {BASE}.", ha="left", fontsize=6, color="#555")
-fig.text(0.985, 0.042,
+fig.text(0.196, 0.035, f"Axis starts at {BASE}.", ha="left", fontsize=6, color="#555")
+fig.text(0.985, 0.035,
          rf"$\dag$ Against batch-B ({B:.1f}).  $\ddag$ Against CatBoost ({A['F1 CatBoost']:.1f}).",
          ha="right", fontsize=6, color="#555")
 
